@@ -1,5 +1,7 @@
 # Opinionated Vue CLI Template
 
+- Vue 3
+- Vue router
 - TypeScript
 - Tailwind CSS
 - Cypress.io (with coverage)
