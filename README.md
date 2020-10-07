@@ -4,7 +4,7 @@
 - Vue router
 - TypeScript
 - Tailwind CSS
-- Cypress.io (with coverage)
+- Cypress.io (w/ coverage)
 - Github Actions
   - Run tests on pull requests
   - Run Dependabot weekly
