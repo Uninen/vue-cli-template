@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [master]
+    branches: [trunk]
   pull_request:
-    branches: [master]
+    branches: [trunk]
 
 jobs:
   ci:
@@ -70,7 +70,7 @@ jobs:
 
       - name: Set code coverage commit status 📫
         # https://help.github.com/en/actions/reference/events-that-trigger-workflows#pull-request-event-pull_request
-        if: github.event_name == 'pull_request' && github.base_ref == 'master'
+        if: github.event_name == 'pull_request' && github.base_ref == 'trunk'
         run: npx set-gh-status
         env:
           # show debug logs from "set-gh-status" script
@@ -82,13 +82,13 @@ jobs:
       # if running on master branch, update the README code coverage badge
       - name: Update code coverage badge 🥇
         # https://help.github.com/en/actions/reference/events-that-trigger-workflows#push-event-push
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/trunk'
         run: npx update-badge
 
       # commit any changed files (like README with updated badge)
       # if running on master branch
       # https://github.com/mikeal/publish-to-github-action
       - uses: mikeal/publish-to-github-action@master
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/trunk'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
