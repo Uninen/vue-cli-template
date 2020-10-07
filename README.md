@@ -1,4 +1,6 @@
-# Opinionated Vue CLI Template ![check-code-coverage](https://img.shields.io/badge/code--coverage-87.5%25-green)
+![check-code-coverage](https://img.shields.io/badge/code--coverage-87.5%25-green)
+
+# Opinionated Vue CLI Template 
 
 - Vue 3
 - Vue router
