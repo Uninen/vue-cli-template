@@ -6,11 +6,14 @@ This repository is [hosted at GitLab](https://gitlab.com/uninen/vue-cli-template
 
 - Vue 3
 - Vue router
+- Vuex
 - TypeScript
 - Tailwind CSS
-- Cypress.io (w/ coverage)
+- Cypress.io e2e tests (w/ coverage)
+- GitLab CI
+  - Run tests on push
 - Github Actions
-  - Run tests on pull requests
+  - Run tests on push
   - Run Dependabot weekly
 
 ## Project setup
