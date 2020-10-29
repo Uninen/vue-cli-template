@@ -10,8 +10,11 @@ module.exports = {
     './src/**/*.js',
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {},
   },
   variants: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }

@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.6.0 - 2020-10-29
+
+- Added Vuex (it's easier to take out than configure)
+- Added Tailwind typography plugin
+
 ### 0.5.0 - 2020-10-29
 
 - Added GitLab CI

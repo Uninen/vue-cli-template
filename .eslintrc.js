@@ -17,6 +17,7 @@ module.exports = {
     'space-before-function-paren': ['error', 'never'],
     'comma-dangle': ['error', 'only-multiline'],
     'no-non-null-assertion': 'off',
+    'symbol-description': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
