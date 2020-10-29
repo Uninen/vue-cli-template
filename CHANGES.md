@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.4.0 - 2020-10-29
+
+- Fixed Cypress types
+- Bumped deps
+
 ### 0.3.0 - 2020-10-14
 
 - Disabled `@typescript-eslint/no-non-null-assertion` in Eslint config.
