@@ -1,6 +1,8 @@
-![check-code-coverage](https://img.shields.io/badge/code--coverage-87.5%25-green)
+![check-code-coverage](https://gitlab.com/uninen/vue-cli-template/badges/trunk/coverage.svg)
 
-# Opinionated Vue CLI Template 
+This repository is [hosted at GitLab](https://gitlab.com/uninen/vue-cli-template/) and mirrored to GitHub.
+
+# Opinionated Vue CLI Template
 
 - Vue 3
 - Vue router

@@ -78,18 +78,3 @@ jobs:
           # set the SHA of the _merged_ commit so the status check goes to PR
           GH_SHA: ${{ github.event.after }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # if running on master branch, update the README code coverage badge
-      - name: Update code coverage badge 🥇
-        # https://help.github.com/en/actions/reference/events-that-trigger-workflows#push-event-push
-        if: github.event_name == 'push' && github.ref == 'refs/heads/trunk'
-        run: npx update-badge
-
-      # commit any changed files (like README with updated badge)
-      # if running on master branch
-      # https://github.com/mikeal/publish-to-github-action
-      - uses: mikeal/publish-to-github-action@master
-        if: github.event_name == 'push' && github.ref == 'refs/heads/trunk'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'trunk'

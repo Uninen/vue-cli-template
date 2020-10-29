@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.5.0 - 2020-10-29
+
+- Added GitLab CI
+- Changed coverage badge to use GitLab data
+
 ### 0.4.0 - 2020-10-29
 
 - Fixed Cypress types
