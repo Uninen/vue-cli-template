@@ -31,7 +31,6 @@ export default defineComponent({
     HelloWorld,
   },
   setup() {
-    // @ts-expect-error
     const store = useStore<State>(key)
     const count = computed(() => store.state.count)
     const increment = () => {

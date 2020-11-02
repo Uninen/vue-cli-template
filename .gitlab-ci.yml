@@ -35,3 +35,4 @@ test:
       - "$CI_PROJECT_DIR/coverage"
     expire_in: 2 weeks
     when: on_failure
+  timeout: 10m

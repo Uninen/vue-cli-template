@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.7.0 - 2020-11-02
+
+- Added a timeout parameter to both GitLab and GitHub CI actions
+
 ### 0.6.0 - 2020-10-29
 
 - Added Vuex (it's easier to take out than configure)
