@@ -59,6 +59,7 @@ jobs:
 
       ## Test
       - name: Run tests
+        timeout-minutes: 10
         run: yarn test:e2e --headless
 
       - name: Upload artifacts on fail
