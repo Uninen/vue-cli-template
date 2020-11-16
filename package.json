@@ -14,7 +14,7 @@
     "core-js": "^3.7.0",
     "tailwindcss": "^1.9.6",
     "vue": "^3.0.2",
-    "vue-router": "^4.0.0-rc.2",
+    "vue-router": "^4.0.0-rc.3",
     "vuex": "^4.0.0-rc.1"
   },
   "devDependencies": {
