@@ -8,7 +8,10 @@ This repository is [hosted at GitLab](https://gitlab.com/uninen/vue-cli-template
 - Vue router
 - Vuex
 - TypeScript
-- Tailwind CSS
+- Tailwind CSS 2.0 w/ plugins
+  - `@tailwindcss/aspect-ratio`
+  - `@tailwindcss/typography`
+  - `@tailwindcss/forms`
 - Cypress.io e2e tests (w/ coverage)
 - GitLab CI
   - Run tests on push
