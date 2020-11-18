@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.8.0 - 2020-11-18
+
+- Upgraded Tailwind to version 2.0
+- Added `@tailwindcss/aspect-ratio` and `@tailwindcss/forms` plugins
+
 ### 0.7.0 - 2020-11-02
 
 - Added a timeout parameter to both GitLab and GitHub CI actions

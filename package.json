@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-template",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
@@ -10,9 +10,11 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.2.0",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.3.1",
     "core-js": "^3.7.0",
-    "tailwindcss": "^1.9.6",
+    "tailwindcss": "^2.0.1-compat",
     "vue": "^3.0.2",
     "vue-router": "^4.0.0-rc.3",
     "vuex": "^4.0.0-rc.1"
@@ -45,8 +47,7 @@
     "eslint-plugin-standard": "^4.1.0",
     "eslint-plugin-vue": "^7.1.0",
     "nyc": "^15.1.0",
-    "typescript": "^4.0.5",
-    "vue-cli-plugin-tailwind": "^1.5.0"
+    "typescript": "^4.0.5"
   },
   "resolutions": {
     "cypress": "^5.6.0"
