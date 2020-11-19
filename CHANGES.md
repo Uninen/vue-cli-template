@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.8.1 - 2020-11-19
+
+- Fixed Tailwind package ([as per this Tweet](https://twitter.com/adamwathan/status/1329476404728254464))
+- Fixed license in `package.json`
+
 ### 0.8.0 - 2020-11-18
 
 - Upgraded Tailwind to version 2.0
