@@ -16,7 +16,7 @@
     "core-js": "^3.7.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vue": "^3.0.2",
-    "vue-router": "^4.0.0-rc.3",
+    "vue-router": "^4.0.0-rc.5",
     "vuex": "^4.0.0-rc.1"
   },
   "devDependencies": {
