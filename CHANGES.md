@@ -1,5 +1,14 @@
 # Changelog
 
+### 0.8.3 - 2020-12-07
+
+- Chore: upgraded dependencies.
+- Repackaged TailwindCSS as per new instructions for the compatibility build.
+
+### 0.8.2 - 2020-11-23
+
+- Chore: upgraded dependencies.
+
 ### 0.8.1 - 2020-11-19
 
 - Fixed Tailwind package ([as per this Tweet](https://twitter.com/adamwathan/status/1329476404728254464))
