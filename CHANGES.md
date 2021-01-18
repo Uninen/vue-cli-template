@@ -1,5 +1,8 @@
 # Changelog
 
+### 0.8.8 - 2021-01-18
+
+- Chore: upgraded dependencies.
 ### 0.8.7 - 2021-01-07
 
 - Chore: upgraded dependencies.
