@@ -22,7 +22,7 @@
     "vuex": "~4.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-optional-chaining": "~7.12",
+    "@babel/plugin-proposal-optional-chaining": "~7.14",
     "@cypress/code-coverage": "~3.9",
     "@istanbuljs/nyc-config-typescript": "~1.0",
     "@types/node": "~14.14",
