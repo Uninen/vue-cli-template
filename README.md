@@ -1,3 +1,9 @@
+# This Repository is Unmaintained
+
+As of 2021 this repo has been unmaintained due to the existence of Vite and [vite-ts-tailwind-starter](https://github.com/Uninen/vite-ts-tailwind-starter). You should use either an official vue-cli template or the Vite starter (which has the same but upgraded and maintained features) instead of this one.
+
+----
+
 ![check-code-coverage](https://gitlab.com/uninen/vue-cli-template/badges/trunk/coverage.svg)
 
 This repository is [hosted at GitLab](https://gitlab.com/uninen/vue-cli-template/) and mirrored to GitHub.
